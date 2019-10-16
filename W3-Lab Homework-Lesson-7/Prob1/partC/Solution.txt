@@ -1,0 +1,3 @@
+A HashMap is used to track duplicates,
+but hashCode has not been overridden in
+Employee.

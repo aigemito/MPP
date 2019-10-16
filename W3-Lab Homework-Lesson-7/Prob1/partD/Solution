@@ -1,0 +1,8 @@
+HashMap is used to track duplicates
+and equals and hashCode have been
+implemented correctly in Employee.
+However, values in the HashMap are
+modified while it is updated, leading
+to incorrect results (violating
+principle that keys should be
+immutable)
