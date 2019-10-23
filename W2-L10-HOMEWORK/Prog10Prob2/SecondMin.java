@@ -16,7 +16,7 @@ public class SecondMax {
 		System.out.println(findSecondMax(stringList));
 	}
 
-	private static <T extends Comparable<T>> T findSecondMax(List<T> list) {
+	private static <T extends Comparable<? super T>> T findSecondMax(List<T> list) {
 		if (list==null) return null;
 		T max1=list.get(0),max2=list.get(1),temp=null;
 		if (max1.compareTo(max2)>0) {
